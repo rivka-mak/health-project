@@ -1,0 +1,38 @@
+.container
+{
+    height: 100%;
+    width: 100%;
+   
+  flex-direction: column;
+  display: flex;
+  flex-grow: 1;
+  //height: 100vh; 
+}
+.row1
+{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    flex-grow: 1;
+    .first .second
+    {
+      display: flex;
+      flex-grow: 1;
+      height: 100%;
+      width: 50vh;
+    }
+}
+.row2
+{
+    
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  flex-grow: 1;
+}
+.bottom
+{
+    width :100%;
+    display: flex;
+    flex-grow: 1;
+}
